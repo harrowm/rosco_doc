@@ -1,2 +1,2 @@
 # rosco_doc
-rosco_m68k documentation page in markdown
+Used vscode CoPilot in agent mode to convert the rosco_m68k old website from wayback machine into markdown.
