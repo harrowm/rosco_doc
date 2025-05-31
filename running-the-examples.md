@@ -1,3 +1,5 @@
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
+
 # Running the Examples
 
 You've built your board and got it connected, so it's time to run some of the pre-built example programs!
@@ -80,6 +82,10 @@ Once you're all done with BASIC, reboot your rosco_m68k and follow the same proc
 Play around with examples for as long as you like. In the next section we'll be getting into more advanced topics, and looking at installing a cross-compiling toolchain and support software that will enable you to compile the examples yourself from source, as well as developing your own software. [Click here](toolchain-installation.md) if you want to get started with that.
 
 ---
+
+---
+
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
 
 Copyright © 2020-2024 The Really Old-School Company Limited. Registered in England and Wales No. 12596175
 The Really Old-School Company Ltd, 15 Starthe Bank, GB DE75 7AX Tel: 0330 133 2083

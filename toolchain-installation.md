@@ -1,3 +1,5 @@
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
+
 # Toolchain Installation
 
 ## No toolchain? No problem! Get coding in no time with our simple toolchain installation.
@@ -73,6 +75,10 @@ brew install minipro
 Once all that's done, you're ready to rock! 🎉
 
 ---
+
+---
+
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
 
 Copyright © 2020-2024 The Really Old-School Company Limited. Registered in England and Wales No. 12596175
 The Really Old-School Company Ltd, 15 Starthe Bank, GB DE75 7AX Tel: 0330 133 2083

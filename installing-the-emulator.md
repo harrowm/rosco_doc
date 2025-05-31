@@ -1,3 +1,5 @@
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
+
 # Installing the Emulator
 
 The rosco_m68k toolchain includes a fully-featured fork of a popular Open Source emulator, with full support for rosco_m68k and a variety of other retro-style single-board computers.
@@ -59,6 +61,10 @@ make -j9
 This includes the Open Source ROM files for rosco_m68k and various other single-board computers.
 
 ---
+
+---
+
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
 
 Copyright © 2020-2024 The Really Old-School Company Limited. Registered in England and Wales No. 12596175
 The Really Old-School Company Ltd, 15 Starthe Bank, GB DE75 7AX Tel: 0330 133 2083

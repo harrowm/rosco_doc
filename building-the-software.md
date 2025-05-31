@@ -1,3 +1,5 @@
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
+
 # Building the Software
 
 Getting started with the software for your new board is as simple as grabbing the source code from GitHub and compiling it for the board.
@@ -118,6 +120,10 @@ Once you've built them, there are scripts in each directory that will use minipr
 As always, if you get stuck, [give us a shout on discord](https://discord.gg/76MhBxJ) and we'll help where we can.
 
 ---
+
+---
+
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
 
 Copyright © 2020-2024 The Really Old-School Company Limited. Registered in England and Wales No. 12596175
 The Really Old-School Company Ltd, 15 Starthe Bank, GB DE75 7AX Tel: 0330 133 2083
