@@ -12,7 +12,7 @@ So you've just received your kit, and no doubt you're itching to build it. Perha
 - Supplies for cleaning and caring for your iron (see below)
 - (Optional) Masking tape
 
-![Soldering Iron](img/iron.jpg)
+![Soldering Iron](img/iron.png)
 
 #### Take me to the BOM!
 If you're an old pro at this, the links below will take you directly to the BOM for your board revision:
@@ -80,7 +80,7 @@ You can buy various commercial products to do this, but Isopropyl Alcohol is our
 
 Is it worth the hassle of cleaning your board? Well, if you don't, it'll most likely work just fine (in any event, there isn't anything that could be wrong that cleaning with IPA will fix) and will probably last for decades assuming you've not used anything crazy in terms of flux or other chemicals. If you do clean it, it'll look more professional and "finished" and you'll be able to rest easy knowing there's nothing nasty eating away at your copper. The choice is yours.
 
-![IPA](ipa.jpg)
+![IPA](ipa.png)
 
 > **Danger!**
 >
