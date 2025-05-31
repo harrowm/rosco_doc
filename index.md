@@ -24,6 +24,7 @@ Download and run the Enhanced BASIC interpreter, and other example programs.
 How to set up your coding environment on macOS® and Linux® (Windows® users are recommended to use a Linux VM).
 - [Toolchain Installation](toolchain-installation.md)
 
+
 ### Building the Software
 Getting started with building software for your board is a breeze! This document tells you everything you need to know.
 - [Building the Software](building-the-software.md)
@@ -31,6 +32,14 @@ Getting started with building software for your board is a breeze! This document
 ### Installing the Emulator
 We have a full-featured emulator for the rosco_m68k - and installing is simple. Check out the docs here!
 - [Installing the Emulator](installing-the-emulator.md)
+
+### Debugging with MAME
+How to use the MAME emulator with a virtual serial port for advanced debugging and terminal access.
+- [Debugging with MAME](MAME-serial.md)
+
+### Using SD Cards
+How to connect and use SD cards with your rosco_m68k for storage and data transfer.
+- [Using SD Cards](SDCardGuide.md)
 
 ---
 

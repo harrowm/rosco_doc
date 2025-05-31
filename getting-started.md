@@ -1,5 +1,5 @@
 
-[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md) | [Debugging with MAME](MAME-serial.md) | [Using SD Cards](SDCardGuide.md)
 
 # Getting Started with rosco_m68k
 
@@ -15,7 +15,7 @@ So you've just received your kit, and no doubt you're itching to build it. Perha
 - Supplies for cleaning and caring for your iron (see below)
 - (Optional) Masking tape
 
-![Soldering Iron](img/iron.png)
+![Soldering Iron](images/iron.png)
 
 #### Take me to the BOM!
 If you're an old pro at this, the links below will take you directly to the BOM for your board revision:
@@ -83,7 +83,7 @@ You can buy various commercial products to do this, but Isopropyl Alcohol is our
 
 Is it worth the hassle of cleaning your board? Well, if you don't, it'll most likely work just fine (in any event, there isn't anything that could be wrong that cleaning with IPA will fix) and will probably last for decades assuming you've not used anything crazy in terms of flux or other chemicals. If you do clean it, it'll look more professional and "finished" and you'll be able to rest easy knowing there's nothing nasty eating away at your copper. The choice is yours.
 
-![IPA](img/ipa.png)
+![IPA](images/ipa.png)
 
 > **Danger!**
 >
@@ -97,19 +97,19 @@ You don't need these, but they definitely help...
 
 
 ### Soldering Iron Metal Sponge
-![Soldering Tip Cleaning Ball & Base](img/tip-cleaning-ball.jpg)
+![Soldering Tip Cleaning Ball & Base](images/tip-cleaning-ball.jpg)
 
 It's likely that your soldering iron came with a sponge, which is designed to be used wet (otherwise it'll tend to melt). This definitely has its uses, but there will be times where it's not enough. If your iron is starting to get really dirty with oxidation and whatnot, one of these metal sponges can come in very handy. Obviously using one of these does abraid your tip a bit more than a wet sponge, so you don't want to use it all the time, but the number of times where a quick run through this fixes things and gives you a nice clean tip to solder with will outweigh any downsides. [Get one here (Amazon UK)](https://www.amazon.co.uk/Silverline-281271-Soldering-Cleaning-Ball/dp/B011SFFRQC)
 
 
 ### Tip Tinner
-![Tip Tinner](img/tip-tinner.jpg)
+![Tip Tinner](images/tip-tinner.jpg)
 
 Handy for getting rid of oxidation on your soldering tip and tinning it at the same time, this is usually acid-based and works instantly on a hot iron. Obviously being acid-based it will eventually eat away at the plating on your tip, but for an occasional refresh of a heavily oxidized tip it's hard to beat this stuff. Plus, it's lead-free and it lasts forever, though that might be because it's ridiculously difficult to actually open the tin. [Pick it up here (Amazon UK)](https://www.amazon.co.uk/Antex-XM000Y0B-Soldering-Tip-Tinner/dp/B01ECH04HA/ref=sr_1_5?dchild=1&keywords=tip+tinner&qid=1586461553&s=diy&sr=1-5)
 
 
 ### Desoldering Braid
-![Desoldering Braid](img/desoldering-braid.jpg)
+![Desoldering Braid](images/desoldering-braid.jpg)
 
 Everyone makes mistakes, and occasionally you will too. Inevitably, some of those mistakes will occur while soldering. This stuff is the "undo" button of soldering. Not really just for mistakes, this comes in handy whenever you need to remove some solder, whether you've added bit too much, or you're removing a component from some other circuit in order to recycle it. It works a bit like a wick (in fact, it's also known as "solder wick") – you place it on the solder you want to remove, apply heat, and the solder gets soaked up into the braid. It's probably not as much fun as its more glamorous cousin, the desoldering pump (or "solder sucker"), but it's reliable, plentiful and cheap. Plus it's not impossible to clean, and doesn't involve globs of molten metal flying around so it's probably safer, at least than the cheaper end of the pump range. [Get it here (Amazon UK)](https://www.amazon.co.uk/Spirig-WICK2-2-1-5-3S-Wick-Desoldering-Antistatic/dp/B00KX20MG2/ref=sr_1_3?dchild=1&keywords=desoldering+braid&qid=1586463181&s=diy&sr=1-3)
 
@@ -134,7 +134,7 @@ by SparkFun Electronics ([Watch on YouTube](https://www.youtube.com/watch?v=Qps9
 ---
 
 
-[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md)
+[Home](index.md) | [Getting Started](getting-started.md) | [Connecting](connecting.md) | [Running the Examples](running-the-examples.md) | [Toolchain Installation](toolchain-installation.md) | [Building the Software](building-the-software.md) | [Installing the Emulator](installing-the-emulator.md) | [Debugging with MAME](MAME-serial.md) | [Using SD Cards](SDCardGuide.md)
 
 Copyright © 2020-2024 The Really Old-School Company Limited. Registered in England and Wales No. 12596175
 The Really Old-School Company Ltd, 15 Starthe Bank, GB DE75 7AX Tel: 0330 133 2083
