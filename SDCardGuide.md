@@ -29,7 +29,7 @@ Making SD card On Linux:
   
 ![Formating SD Card](images/making_sd_card.png)
 
-  Upload to SD Card all files from Examples folder
+  Upload to SD Card all files from Examples: https://github.com/rosco-m68k/example_programs
 
 ### sdfat_menu
 
