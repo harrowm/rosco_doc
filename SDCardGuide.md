@@ -2,9 +2,9 @@
 
 # SD Card Hookup & User Guide
 
-With Firmware 1.3, SD Cards are now supported directly by the firmware. This feature works will all boards that are supported by Firmware 1.3, though the electrical hookup and usage varies.
+With Firmware 1.3, SD Cards are now supported directly by the firmware. This feature works with all boards that are supported by Firmware 1.3, though the electrical hookup and usage varies.
 
-In order to use SD card, you will need an Arduino SD Card adapter. It is very important that this adapter includes level conversion (as SD cards are 3.3V) - any adapter marked as suitable for Arduino _should_ work, but for completeness ensure it has the regulator and level-conversion chip (as in the diagram below).
+In order to use SD card, you will need an Arduino SD Card adapter. It is very important that this adapter includes level conversion (as SD cards are 3.3V) - any adapter marked as suitable for Arduino _should_ work, but for completeness *ensure it has the regulator and level-conversion chip (as in the diagram below)*.
 
 ## Electrical connection
 
@@ -18,11 +18,16 @@ The SD adapter should be connected with the rosco_m68k powered off. Ensure all c
 
 Most SD cards will work fine in a read-only system, however for best performance and reliability (especially during writes) we recommend good quality SDHC cards with capacity 16 or 32GB. The interface has been fairly extensively tested with SanDisk, Samsung, and similar brands in SDHC capacity.
 
-## SD Card format
+## SD Card format, ADD Primary partition and set on BOOTABLE FLAG!
 
 In order to work with the standard rosco_m68k software (both the firmware bootloader, where available, and Xark's [sdfat_menu](code/software/sdfat_menu)) your SD card should be formatted as FAT. You can do this on a desktop computer - specifics vary by platform.
+**FAT32** is recommended (and more completely tested). VFAT is known to be unsupported at this time.
+Making SD card On Linux:
+  sudo fdisk /dev/mmcblk0
+  n, p, <Enter>, +100M, t, 0b, a, w
+![Formating SD Card](images/making_sd_card.png)
 
-FAT32 is recommended (and more completely tested). VFAT is known to be unsupported at this time.
+  Upload to SD Card all files from Examples folder
 
 ### sdfat_menu
 
