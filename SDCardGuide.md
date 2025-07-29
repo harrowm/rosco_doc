@@ -22,7 +22,8 @@ Most SD cards will work fine in a read-only system, however for best performance
 
 In order to work with the standard rosco_m68k software (both the firmware bootloader, where available, and Xark's [sdfat_menu](code/software/sdfat_menu)) your SD card should be formatted as FAT. You can do this on a desktop computer - specifics vary by platform.
 **FAT32** is recommended (and more completely tested). VFAT is known to be unsupported at this time.
-Making SD card On Linux:
+Making SD card On Linux:  
+
   sudo fdisk /dev/mmcblk0
   n, p, <Enter>, +100M, t, 0b, a, w  
   
