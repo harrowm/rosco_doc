@@ -24,7 +24,7 @@ In order to work with the standard rosco_m68k software (both the firmware bootlo
 **FAT32** is recommended (and more completely tested). VFAT is known to be unsupported at this time.
 Making SD card On Linux:  
 
-  sudo fdisk /dev/mmcblk0
+  sudo fdisk /dev/mmcblk0  
   n, p, <Enter>, +100M, t, 0b, a, w  
   
 ![Formating SD Card](images/making_sd_card.png)
